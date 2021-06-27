@@ -1,62 +1,58 @@
-/* h1 {
-    color: blue;
-    color: rgba(183, 0, 255, 0.479);
-    color: #00ff00;
-    color: #0f0;
-} */
+/* h1の文字の色 */
+h1 {
+    color: rgba(10, 11, 12, 0.712);
+}
 
+/* bodyの設定 */
 body {
     color: #333;
     font-family: Verdana, Geneva, sans-serif;
-    /* margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin: 0px; */
     margin: 0;
 }
+
+/* ヘッダーの設定 */
 header {
     background-color: #efefef;
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
+/* ヘッダーの設定 */
 .container {
-    /* background-color: pink; */
     width: 400px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     align-items: center;
 }
-.icon {
-    /* background-color: skyblue; */
-}
 
+/* アイコンの設定 */
 .icon img {
-    /* border-radius: 20px; */
     border-radius: 50%;
     border-width: 4px;
     border-style: solid;
     border-color: white;
 }
 
+/* プロフィールの設定 */
 .info {
-    /* background-color: tomato; */
     margin-left: 32px;
 }
 
+/* プロフィールの中のh1の設定 */
 .info h1 {
     font-weight: normal;
     font-size: 24px;
     margin: 0;
 }
 
+/* プロフィールの中のpの設定 */
 .info p {
     margin: 0;
     margin-bottom: 16px;
 }
 
+/* リストを横並びにする */
 .info ul {
     margin: 0;
     padding: 0;
@@ -68,11 +64,11 @@ header {
     margin-right: 8px;
 }
 
+/* 作品紹介 */
 .works {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .works > h1 {
@@ -91,8 +87,19 @@ header {
     font-weight: normal;
 }
 
+.works > section > h1 > a {
+    text-decoration: none;
+}
+
 .works p {
     line-height: 1.8;
+}
+
+
+/* 紹介文の説明 */
+.unsei {
+    color: red;
+    font-size: 24px;
 }
 
 footer p {
