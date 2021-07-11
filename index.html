@@ -1,120 +1,164 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="utf-8">
-        <!-- 文章宣言 -->
-        <title>まなみのポートフォリオ</title>
-        <!-- アイコンの設定 -->
-        <link rel="icon" href="deer.ico"> 
-        <!-- 検索エンジンが使用 -->
-        <meta name="description" content="まなみのポートフォリオ">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
+<head>
+    <!-- 文章宣言 -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>まなみのポートフォリオ</title>
+    <!-- アイコンの設定 -->
+    <link rel="icon" href="deer.ico"> 
+    <!-- 検索エンジンが使用 -->
+    <meta name="description" content="まなみのポートフォリオ">
+    <!-- アイコンの取り込み -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- CSSの設定 -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <body>
-        <!-- ヘッダー部分 -->
-        <header>
-            <div class="container">
-                <div class="icon">
-                    <!-- プロフィール画像の設定 -->
-                    <img src="img/manami.png" width="120" hight="120" alt="まなみ">
-                </div>
-                <div class="info">
-                    <!-- プロフィールの説明 -->
-                    <h1>伊藤愛満</h1>
-                    <p>奈良女子大学の学生</p>
-                    <!-- リンク先を決める -->
-                    <ul>
-                        <li>
-                            <!-- リンクは別タグで開く -->
-                            <a href="http://www.nara-wu.ac.jp/" target="_blank">
-                                <!-- 画像の設定 -->
-                                <img src="img/school.png" width="40" height="40" alt="奈良女リンク">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/narajyo/?hl=ja" target="_blank">
-                                <img src="img/insta.jpeg" width="40" height="40" alt="インスタリンク">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+<body>
+    <!-- ヘッダー部分 -->
+    <header>
+        <div class="container">
+            <div class="icon">
+                <!-- プロフィール画像の設定 -->
+                <img src="img/manami.png" width="120" hight="120" alt="まなみ">
             </div>
-
-    
-            </header>
-    
-    
-    
-            <!-- 作品紹介 -->
-        <section class="works">
-
-            <h1>My Portfolio</h1>
-
-            <!-- １つ目の紹介 -->
-            <!-- <section> -->
-                <!-- 画像設定 -->
-                <!-- <h1> -->
-                    <!-- リンク先 -->
-                    <!-- <a href="https://manamiworld.github.io/myquiz/"> -->
-                    <!-- <img src="img/quiz.png" width="400" height="400" alt="クイズ"> -->
-                    <!-- 三択クイズ -->
-                    <!-- </a> -->
-                <!-- </h1> -->
-                <!-- 説明文 -->
-                <!-- <p>楽しいアプリです</p> -->
-                <!-- <ul>
+            <div class="info">
+                <!-- プロフィールの説明 -->
+                <h1>伊藤愛満</h1>
+                <p>奈良女子大学の学生</p>
+                <!-- リンク先を決める -->
+                <ul>
                     <li>
-                        リンクの設定
-                        <a href="https://manamiworld.github.io/myquiz/" target="_blank">
-                            <img src="img/quiz.png" width="20" height="20" alt="クイズ画像">
+                        <!-- リンクは別タグで開く -->
+                        <a href="http://www.nara-wu.ac.jp/" target="_blank">
+                            <!-- 画像の設定 -->
+                            <img src="img/school.png" width="40" height="40" alt="奈良女リンク">
                         </a>
                     </li>
-                </ul> -->
-            <!-- </section>     -->
-    
-             <!-- 2つ目の紹介 -->
-            <!-- <section> -->
-                <!-- <img src="img/typing.png" width="400" height="400" alt="タイピング"> -->
-                <!-- <h1> -->
-                    <!-- <a href="https://manamiworld.github.io/typing/">タイピングゲーム</a> -->
-                <!-- </h1> -->
-                <!-- <p>楽しいアプリです</p> -->
-                <!-- <ul>
                     <li>
-                        <a href="https://manamiworld.github.io/typing/" target="_blank">
-                            <img src="img/blog.png" width="20" height="20" alt="パソコン画像">
+                        <a href="https://www.instagram.com/narajyo/?hl=ja" target="_blank">
+                            <img src="img/insta.jpeg" width="40" height="40" alt="インスタリンク">
                         </a>
                     </li>
-                </ul> -->
-            <!-- </section> -->
+                </ul>
+            </div>
+        </div>
+        <div class="logo"></div>
+        
+        <div class="pc-menu">
+            <nav>
+                <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Menu</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    <div class="sp-menu">
+        <span class="material-icons" id="open">menu</span>
+    </div>
+
+    </header>
+    <div class="overlay">
+        <span class="material-icons" id="close">close</span>
+        <nav>
+            <ul>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Menu</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- 吹き出し -->
+    <div class="coment">
+        <ul class="messages">
+            <li class="leftside">
+                <div class="pic">
+                    <img src="img/hukidasi.png">
+                </div>
+                <div class="text">
+                    たくさんのゲームを楽しんでね
+                </div>
+            </li>
+        </ul>
+    </div>        
     
-            <!-- 3つ目の紹介 -->
-            <section>
-                <img src="img/omikuji.png" width="400" height="400" alt="おみくじ">
-                <h1>
-                    <a href="https://manamiworld.github.io/omikuji/">おみくじ</a>
-                </h1>
-                <p>かんたんなおみくじゲームです。</p>
-                <p class ="unsei">今日の運勢を試してみましょう！！</p>
-                <!-- <ul>
-                    <li>
-                        <a href="https://manamiworld.github.io/omikuji/" target="_blank">
-                            <img src="img/blog.png" width="20" height="20" alt="おみくじ画像">
-                        </a>
-                    </li>
-                </ul> -->
-            </section>
+    <!-- 作品紹介 -->
+    <section class="works">
+        
+    <h1>My Portfolio</h1>
+        
+        
+    <!-- １つ目の紹介（三択クイズ） -->
+    <section>
+        <div class="gazo">
+            <img src="img/quiz.png" width="400" height="400" alt="クイズ">
+            <h1>
+                <a href="https://manamiworld.github.io/myquiz/">三択クイズ</a>
+            </h1>
+            <h2>かんたんなクイズです。</h2>
+            <p>簡単な三択クイズを解いてみましょう！！</p>
+        </div>
+    </section>  
+                
+    <!-- 2つ目の紹介（タイピングゲーム） -->
+    <section>
+        <div class="gazo">
+            <img src="img/typing.png" width="400" height="400" alt="パソコン">
+            <h1>
+                <a href="https://manamiworld.github.io/typing/">タイピングゲーム</a>
+            </h1>
+            <h2>かんたんなタイピングゲームです。</h2>
+            <p>タイピングスピードをはかってみましょう！！</p>
+        </div>
+    </section>
+                        
+    <!-- 3つ目の紹介（おみくじゲーム） -->
+    <section>
+        <div class="gazo">
+            <img src="img/omikuji.png" width="400" height="400" alt="おみくじ">
+            <h1>
+                <a href="https://manamiworld.github.io/omikuji/">おみくじ</a>
+            </h1>
+            <h2>かんたんなおみくじゲームです。</h2>
+            <p>今日の運勢を試してみましょう！！</p>
+        </div>
+    </section>
+                        
+                        
+    <!-- タブの設定 （今考え中）-->
+    <!-- <div class="tab">
+        <ul class="menu">
+            <li><a href="#" class="active" data-id="about"><span class="material-icons">home</span> サイトの概要</a></li>
+            <li><a href="#" data-id="service"><span class="material-icons">info</span> サービス内容</a></li>
+            <li><a href="#" data-id="contact"><span class="material-icons">call</span> お問い合わせ</a></li>
+        </ul>
 
-         </section>
-            
-<!-- フッターの設定 -->
-        <footer>
-            <p>(c) manamiito.com</p>
-        </footer>
+        <section class="content active" id="about">
+            サイトの概要サイトの概要
+        </section>
+        <section class="content" id="service">
+            サービス内容サービス内容
+        </section>
+        <section class="content" id="contact">
+            お問い合わせお問い合わせ
+        </section>
+    </div> -->
 
-    </body>
-
+    
+    <!-- フッターの設定 -->
+    <footer>
+        <p>(c) manamiito.com</p>
+    </footer>
+    
+    <!-- javascriptの読み込み -->
+    <script src="js/main.js"></script>
+</body>
+    
 </html>
-
-
+                        
+                        
+                        
